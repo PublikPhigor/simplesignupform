@@ -75,3 +75,10 @@ header {
         color: #000;
         border: 1px solid #000;
     }
+
+
+    @media(max-width:765px){
+        .container, .form-box {
+            max-width: 80%;
+        }
+    }
